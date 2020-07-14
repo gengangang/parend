@@ -7,6 +7,7 @@ $(function () {
             }
 
             //读取本地数据
+
             var local = getDate();
             //追加给本地数据
             local.push({ title: $(this).val(), done: false });
