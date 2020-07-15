@@ -1,5 +1,6 @@
 $(function () {
     load();
+    var a;
     $('#title').on('keyup', function (e) {
         if (e.keyCode == 13) {
             if ($(this).val() == '') {
